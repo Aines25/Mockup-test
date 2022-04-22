@@ -227,8 +227,9 @@ nav {
 
 /* Media Queries end for main content */
 
+
 .main-content-photo {
-    background-image: url(resources/images/holiday.jpg);
+    background: url(/resources/images/holiday.jpg);
     background-size: cover;
     background-position: center;
 }
