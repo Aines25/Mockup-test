@@ -229,7 +229,7 @@ nav {
 
 
 .main-content-photo {
-    background-image: url(/resources/images/holiday.jpg);
+    background-image: url(./resources/images/holiday.jpg);
     background-size: cover;
     background-position: center;
 }
