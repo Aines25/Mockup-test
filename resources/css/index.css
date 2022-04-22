@@ -228,7 +228,7 @@ nav {
 /* Media Queries end for main content */
 
 .main-content-photo {
-    background-image: url(../images/pexels-oliver-sjÃ¶strÃ¶m-931018.jpg);
+    background-image: url(/images/pexels-oliver-sjÃ¶strÃ¶m-931018.jpg);
     background-size: cover;
     background-position: center;
 }
