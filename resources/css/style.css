@@ -127,6 +127,10 @@ nav {
     -webkit-backdrop-filter: blur(20px);
 }
 
+.navbar a:hover {
+    color: gray;
+}
+
 /* Navbar end */
 
 /* Background for create and get started */
@@ -135,7 +139,7 @@ nav {
     border: solid 1px black;
     background-color: black;
     border-radius: 100px;
-    padding: 5px 10px;
+    padding: 15px 10px;
 }
 
 .background i {
@@ -258,6 +262,10 @@ nav {
     font-size: 1.25rem;
 }
 
+.info {
+    font-weight: bold;
+}
+
 
 /* Booking media queries start */
 @media only screen and (max-width: 600px) {
@@ -330,6 +338,57 @@ nav {
 .fa-search:hover {
     color: black;
     background-color: white;
+}
+
+.fa-arrow-right {
+    animation: bounce 4s ease 0s 2 normal forwards;
+}
+
+@keyframes bounce {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateX(10px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateX(16px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateX(13px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateX(6.5px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateX(4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87%,
+	98% {
+		animation-timing-function: ease-out;
+		transform: translateX(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0px);
+	}
 }
 
 /* icons end */
